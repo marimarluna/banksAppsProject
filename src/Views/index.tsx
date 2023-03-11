@@ -11,7 +11,6 @@ function App(): JSX.Element {
         init()
     }, [])
 
-    console.log(list)
     return (
         <SafeAreaView>
             <ScrollView contentContainerStyle={styles.container}>
